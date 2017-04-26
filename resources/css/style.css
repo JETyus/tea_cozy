@@ -1,0 +1,187 @@
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  align-content: center;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+a:link {
+  color: seashell;
+}
+
+a:visited {
+  color: seashell;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+  display: inline-flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.navmenu {
+  margin: auto 0;
+  padding-right: 10px;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+.monthlytea {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+}
+
+.berryblitz img {
+  height: 200px;
+  width: 300px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.spicedrum img {
+  height: 200px;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.seasonaldonut img {
+  height: 200px;
+  width: 300px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.myrtleave img {
+  height: 200px;
+  width: 300px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.bedfordbizarre img {
+  height: 200px;
+  width: 300px;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.locationtitle {
+  padding-bottom: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.downtown {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: auto 20px;
+  text-align: center;
+}
+
+.eastbayside {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: auto 20px;
+  text-align: center;
+}
+
+.oakdale {
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: auto 20px;
+  text-align: center;
+}
+
+.footer {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+
+#missionbanner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#teaofthemonth {
+  margin: 0 auto;
+  width: 1000px;
+  
+}
+
+#teapictures {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#teapictures h4 {
+  margin-top: 0;
+}
+
+#teapictures2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#teapictures2 h4 {
+  margin-top: 0;
+}
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#locationitems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15 auto 0;
+}
